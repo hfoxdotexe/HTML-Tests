@@ -5,5 +5,5 @@ function setPercentage(id, percentage) {
 
 function changePercentage(id, percentage) {
 	var inc = document.getElementById(id) + percentage;
-	setPercentage(inc + '%');
+	setPercentage(id, inc + '%');
 }
