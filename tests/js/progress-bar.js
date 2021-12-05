@@ -1,5 +1,4 @@
-$(document).ready(function() {
-	function setPercentage(id, percentage) {
-		$(id).width(percentage);
-	}
-});
+function setPercentage(id, percentage) {
+	pb = document.getElementById(id);
+	pb.style.width = percentage;
+}
