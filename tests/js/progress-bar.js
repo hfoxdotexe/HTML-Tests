@@ -1,5 +1,3 @@
-document.getElementById('pb1').style.width = '0%';
-
 function setPercentage(id, percentage) {
 	var elm = document.getElementById(id);
 	elm.style.width = percentage + "%";
