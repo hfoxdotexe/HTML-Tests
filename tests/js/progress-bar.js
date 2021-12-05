@@ -1,4 +1,5 @@
 function setPercentage(id, percentage) {
-	alert("angery");
+	alert(id);
+	alert(percentage);
 	document.getElementById(id) = percentage + "%";
 }
