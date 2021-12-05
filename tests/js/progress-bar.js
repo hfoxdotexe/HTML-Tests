@@ -8,7 +8,9 @@ function setPercentage(id, percentage) {
 function changePercentage(id, percentage) {
 	var v = document.getElementById(id).style.width
 	v = parseInt(v)
+	if v == 'NaN' {
+		v = 0
+	}
 	var inc = v + percentage;
-	alert(inc);
 	setPercentage(id, inc);
 }
