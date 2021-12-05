@@ -6,7 +6,7 @@
 }
 
 .prog-bar-fg {
-	clip-path: inset(0 0 0 0 round 16px);
+	clip-path: border-box;
 	border-radius: 16px;
 	width: 0%;
 	left: 0px;
