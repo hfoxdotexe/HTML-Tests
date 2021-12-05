@@ -1,5 +1,6 @@
 function setPercentage(id, percentage) {
 	//alert(id);
 	//alert(percentage);
-	document.getElementById(id).style.width = percentage + "%";
+	var elm = document.getElementById(id);
+	elm.style.width = percentage + "%";
 }
