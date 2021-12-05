@@ -6,8 +6,11 @@
 
 .prog-bar-fg {
 	width: 0%;
-	left: 0;
+	left: 0px;
 	height: 32px;
 	background-color: #44ff44;
-	transition-duration: 0.5;
+	-webkit-transition: 0.5;
+	-moz-transition: 0.5s;
+	-o-transition: 0.5s;
+	transition: 0.5s;
 }
