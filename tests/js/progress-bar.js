@@ -4,7 +4,9 @@ function setPercentage(id, percentage) {
 }
 
 function changePercentage(id, percentage) {
-	var inc = document.getElementById(id).style.width + percentage;
+	var v = document.getElementById(id).style.width
+	v = parseInt(v)
+	var inc = v + percentage;
 	alert(inc);
 	setPercentage(id, inc + '%');
 }
