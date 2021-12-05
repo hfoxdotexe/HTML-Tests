@@ -1,10 +1,10 @@
-#prog-bar-bg {
+.prog-bar-bg {
 	width: 200px;
 	height: 32px;
 	background-color: #aaaaaa;
 }
 
-#prog-bar-fg {
+.prog-bar-fg {
 	top: 0;
 	left: 0;
 	position: fixed;
