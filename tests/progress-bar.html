@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <head>
 	<title>Benerom HTML Tests: Progress Bar</title>
+	<script src="js/progress-bar.js"></script>
 	<link rel="stylesheet" href="css/progress-bar.css">
 </head>
 <body>
@@ -8,7 +9,7 @@
 	<div class="prog-bar-bg">
 		<div class="prog-bar-fg" id="pb1"></div>
 	</div>
-	<button onclick="">0%</button>
-	<button onclick="">50%</button>
-	<button onclick="">100%</button>
+	<button onclick="setProgress('pb1', '0%')">0%</button>
+	<button onclick="setProgress('pb1', '50%')">50%</button>
+	<button onclick="setProgress('pb1', '100%')">100%</button>
 </body>
