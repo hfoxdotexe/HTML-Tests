@@ -1,4 +1,5 @@
 .prog-bar-bg {
+	overflow: hidden;
 	border-radius: 16px;
 	width: 200px;
 	height: 32px;
