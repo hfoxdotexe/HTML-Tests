@@ -6,6 +6,8 @@
 }
 
 .prog-bar-fg {
+	position: absolute;
+	clip-path: inset(0 0 0 0 round 16px);
 	border-radius: 16px;
 	width: 0%;
 	left: 0px;
