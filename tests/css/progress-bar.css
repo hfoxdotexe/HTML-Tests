@@ -6,6 +6,7 @@
 
 .prog-bar-fg {
 	width: 0%;
+	left: 0;
 	height: 32px;
 	background-color: #44ff44;
 	transition-duration: 0.5;
