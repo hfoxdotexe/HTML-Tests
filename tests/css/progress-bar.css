@@ -1,3 +1,14 @@
-.prog-bar {
-	
+.prog-bar-bg {
+	width: 200px;
+	height: 32px;
+	background-color: #aaaaaa;
+}
+
+.prog-bar-fg {
+	top: 0;
+	left: 0;
+	position: fixed;
+	width: 0%;
+	height: 32;
+	background-color: #44ff44;
 }
