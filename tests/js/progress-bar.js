@@ -3,4 +3,5 @@ function setPercentage(id, percentage) {
 	//alert(percentage);
 	var elm = document.getElementById(id);
 	elm.style.width = "200px";
+	alert(elm.style.width);
 }
