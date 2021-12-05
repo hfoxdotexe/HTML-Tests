@@ -2,11 +2,11 @@
 	width: 200px;
 	height: 32px;
 	background-color: #aaaaaa;
-	transition-duration: 0.5;
 }
 
 .prog-bar-fg {
 	width: 0%;
 	height: 32px;
 	background-color: #44ff44;
+	transition-duration: 0.5;
 }
