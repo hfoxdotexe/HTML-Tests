@@ -8,5 +8,5 @@ function changePercentage(id, percentage) {
 	v = parseInt(v)
 	var inc = v + percentage;
 	alert(inc);
-	setPercentage(id, inc + '%');
+	setPercentage(id, inc);
 }
