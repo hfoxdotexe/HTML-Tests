@@ -1,4 +1,3 @@
-function setProgress(id, progress) {
-	pb = getElementFromId(id);
-	$(pb).width(progress);
-}
+$(document).ready(function() {
+	function setPercentage(id, percentage) {
+		$(id).width(percentage)
