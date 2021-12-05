@@ -1,4 +1,4 @@
 function setPercentage(id, percentage) {
 	pb = document.getElementById(id);
-	pb.style.width = percentage;
+	pb.style.width = percentage + "%";
 }
