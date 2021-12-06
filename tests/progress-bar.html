@@ -1,8 +1,22 @@
 <!DOCTYPE html>
 <head>
 	<title>Benerom HTML Tests: Progress Bar</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 	<script src="js/progress-bar.js"></script>
 	<link rel="stylesheet" href="css/progress-bar.css">
+	<script>
+		$("#redbutton").click(function(){
+			$("#prog-bar-fg").css("background-color","#ff4444");
+		});
+		
+		$("#bluebutton").click(function(){
+			$("#prog-bar-fg").css("background-color","#4444ff");
+		});
+		
+		$("#resetbutton").click(function(){
+			$("#prog-bar-fg").css("background-color","#44ff44");
+		});
+	</script>
 </head>
 <body>
 	<h1>Progress Bar</h1>
@@ -15,7 +29,7 @@
 	<button onclick="setPercentage('pb1', 100)">100%</button><br>
 	<input type="number" id="setper"></input>
 	<button onclick="setPercentage('pb1', document.getElementById('setper').value)">Set %</button><br>
-	<button onclick="document.getElementById('prog-bar-fg').style.background = rgb(0xff, 0x44, 0x44)">Red</button>
-	<button onclick="document.getElementById('prog-bar-fg').style.background = rgb(0x44, 0x44, 0xff)">Blue</button>
-	<button onclick="document.getElementById('prog-bar-fg').style.background = rgb(0x44, 0xff, 0x44)">Reset</button>
+	<button tag="redbutton">Red</button>
+	<button tag="bluebutton">Blue</button>
+	<button tag="resetbutton">Reset</button>
 </body>
