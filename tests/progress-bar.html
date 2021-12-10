@@ -1,8 +1,35 @@
 <!DOCTYPE html>
 <head>
 	<title>Benerom HTML Tests: Progress Bar</title>
-	<script src="js/progress-bar.js"></script>
-	<link rel="stylesheet" href="css/progress-bar.css">
+	<script src>
+	function setPercentage(id, percentage) {
+		var elm = document.getElementById(id);
+		elm.style.width = percentage + "%";
+	}
+	</script>
+	<style>
+		.prog-bar-bg {
+			overflow: hidden;
+			border-radius: 16px;
+			width: 200px;
+			height: 32px;
+			background-color: #aaaaaa;
+		}
+
+		.prog-bar-fg {
+			clip-path: border-box;
+			border-top-right-radius: 16px;
+			border-bottom-right-radius: 16px;
+			width: 0%;
+			left: 0px;
+			height: 32px;
+			background-color: #44ff44;
+			-webkit-transition: 0.5;
+			-moz-transition: 0.5s;
+			-o-transition: 0.5s;
+			transition: 0.5s;
+		}
+	</style>
 	<script src="https://code.jquery.com/jquery-3.5.0.js">
 		$(document).ready(function() {
 			$("#redbutton").click(function(){
