@@ -5,16 +5,18 @@
 	<script src="js/progress-bar.js"></script>
 	<link rel="stylesheet" href="css/progress-bar.css">
 	<script>
-		$("#redbutton").click(function(){
-			$("#prog-bar-fg").css("background-color","#ff4444");
-		});
-		
-		$("#bluebutton").click(function(){
-			$("#prog-bar-fg").css("background-color","#4444ff");
-		});
-		
-		$("#resetbutton").click(function(){
-			$("#prog-bar-fg").css("background-color","#44ff44");
+		$(document).ready(function() {
+			$("#redbutton").click(function(){
+				$("#prog-bar-fg").css("background-color","#ff4444");
+			});
+
+			$("#bluebutton").click(function(){
+				$("#prog-bar-fg").css("background-color","#4444ff");
+			});
+
+			$("#resetbutton").click(function(){
+				$("#prog-bar-fg").css("background-color","#44ff44");
+			});
 		});
 	</script>
 </head>
