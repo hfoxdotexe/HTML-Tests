@@ -26,16 +26,16 @@
 		}
 	</style>
 	<script>
-		$("#redbutton").click(function(){
-			$(this).css('background-color','#ff4444');
+		$("#redbutton").on("click", function() {
+			$('#prog-bar-fg').css('background-color','#ff4444');
 		});
 		
-		$("#bluebutton").click(function(){
-			$(this).css('background-color','#4444ff');
+		$("#bluebutton").on("click", function(){
+			$('#prog-bar-fg').css('background-color','#4444ff');
 		});
 		
-		$("#resetbutton").click(function(){
-			$(this).css('background-color','#44ff44');
+		$("#resetbutton").on("click", function(){
+			$('#prog-bar-fg').css('background-color','#44ff44');
 		});
 		
 		function setPercentage(id, percentage) {
