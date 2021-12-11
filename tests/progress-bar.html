@@ -26,16 +26,16 @@
 		}
 	</style>
 	<script>
-		$("#redbutton").on("click", function() {
-			$(this).css('background-color','#ff4444');
+		$(".redbutton").on("click", function() {
+			$('.prog-bar-fg').css('background-color','#ff4444');
 		});
 		
-		$("#bluebutton").on("click", function(){
-			$(this).css('background-color','#4444ff');
+		$(".bluebutton").on("click", function(){
+			$('.prog-bar-fg').css('background-color','#4444ff');
 		});
 		
-		$("#resetbutton").on("click", function(){
-			$(this).css('background-color','#44ff44');
+		$(".resetbutton").on("click", function(){
+			$('.prog-bar-fg').css('background-color','#44ff44');
 		});
 		
 		function setPercentage(id, percentage) {
@@ -55,7 +55,7 @@
 	<button onclick="setPercentage('pb1', 100)">100%</button><br>
 	<input type="number" id="setper"></input>
 	<button onclick="setPercentage('pb1', document.getElementById('setper').value)">Set %</button><br>
-	<button tag="redbutton">Red</button>
-	<button tag="bluebutton">Blue</button>
-	<button tag="resetbutton">Reset</button>
+	<button class="redbutton">Red</button>
+	<button class="bluebutton">Blue</button>
+	<button class="resetbutton">Reset</button>
 </body>
