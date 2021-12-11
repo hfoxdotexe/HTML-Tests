@@ -26,12 +26,12 @@
 		}
 	</style>
 	<script src="https://code.jquery.com/jquery-3.5.0.js">
-		function setPercentage(id, percentage) {
-			var elm = document.getElementById(id);
-			elm.style.width = percentage + "%";
-		}
-		
 		$(document).ready(function() {
+			function setPercentage(id, percentage) {
+				var elm = document.getElementById(id);
+				elm.style.width = percentage + "%";
+			}
+			
 			$("#redbutton").click(function(){
 				$('#prog-bar-fg').css({'background-color': '#ff4444'});
 			});
