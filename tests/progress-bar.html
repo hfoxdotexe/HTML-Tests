@@ -27,11 +27,6 @@
 	</style>
 	<script src="https://code.jquery.com/jquery-3.5.0.js">
 		$(document).ready(function() {
-			function setPercentage(id, percentage) {
-				var elm = document.getElementById(id);
-				elm.style.width = percentage + "%";
-			}
-			
 			$("#redbutton").click(function(){
 				$('#prog-bar-fg').css({'background-color': '#ff4444'});
 			});
@@ -44,6 +39,11 @@
 				$('#prog-bar-fg').css({'background-color': '#44ff44'});
 			});
 		});
+		
+		function setPercentage(id, percentage) {
+			var elm = document.getElementById(id);
+			elm.style.width = percentage + "%";
+		}
 	</script>
 </head>
 <body>
