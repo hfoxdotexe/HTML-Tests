@@ -10,10 +10,6 @@
 			height: 32px;
 			background-color: #aaaaaa;
 		}
-		
-		#prog-bar-fg {
-			
-		}
 
 		.prog-bar-fg {
 			clip-path: border-box;
@@ -31,15 +27,15 @@
 	</style>
 	<script>
 		$("#redbutton").click(function(){
-			$('#prog-bar-fg').css('background-color','#ff4444');
+			$(this).css('background-color','#ff4444');
 		});
 		
 		$("#bluebutton").click(function(){
-			$('#prog-bar-fg').css('background-color','#4444ff');
+			$(this).css('background-color','#4444ff');
 		});
 		
 		$("#resetbutton").click(function(){
-			$('#prog-bar-fg').css('background-color','#44ff44');
+			$(this).css('background-color','#44ff44');
 		});
 		
 		function setPercentage(id, percentage) {
