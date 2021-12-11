@@ -27,15 +27,15 @@
 	</style>
 	<script>
 		$("#redbutton").on("click", function() {
-			$('#prog-bar-fg').css('background-color','#ff4444');
+			$(this).css('background-color','#ff4444');
 		});
 		
 		$("#bluebutton").on("click", function(){
-			$('#prog-bar-fg').css('background-color','#4444ff');
+			$(this).css('background-color','#4444ff');
 		});
 		
 		$("#resetbutton").on("click", function(){
-			$('#prog-bar-fg').css('background-color','#44ff44');
+			$(this).css('background-color','#44ff44');
 		});
 		
 		function setPercentage(id, percentage) {
